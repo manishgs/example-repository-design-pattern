@@ -55,7 +55,7 @@ class PostService extends Service {
      */
     public function paginate(array $filter = [])
     {
-        $filter['limit'] = 20;
+        $filter['limit'] = 5;
 
         return $this->post->paginate($filter);
     }
