@@ -18,16 +18,16 @@ class PostService extends Service {
     /**
      * @var Log
      */
-    protected $log;
+    protected $logger;
 
     /**
      * @param PostRepositoryInterface $post
-     * @param Log $log
+     * @param Log $logger
      */
-    public function __construct(PostRepositoryInterface $post, Log $log)
+    public function __construct(PostRepositoryInterface $post, Log $logger)
     {
         $this->post = $post;
-        $this->log = $log;
+        $this->logger = $logger;
     }
 
     /**
