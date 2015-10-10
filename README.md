@@ -2,7 +2,7 @@
 This is sample code for implementing repository design pattern in laravel. Plus basic CRUD (create, retrieve, update and delete) operation.
 
 ## How to install?
-* git clone git@github.com:manishgs/example-repository-design-pattern.git
+* `git clone https://github.com/manishgs/example-repository-design-pattern.git`
 * cd example-repository-design-pattern
 * update app dependencies : `composer install`
 * copy .env.example to .env and update your database configurations
